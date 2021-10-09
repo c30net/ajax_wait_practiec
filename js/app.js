@@ -1,6 +1,6 @@
 class AjaxWeather {
   constructor() {
-    this.apiKey = "9a0235e200e82949f5b09839e9761b98";
+    this.apiKey = "put your api key here";
   }
   async getWeather(city) {
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${this.apiKey}&units=metric`;
